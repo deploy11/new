@@ -1,0 +1,65 @@
+nav{
+    width: 100%;
+    background-color:dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    font-weight: 900;
+    letter-spacing: 15px;
+}
+.logo>span:nth-child(1){
+    color: rgb(255, 0, 0);
+    font-size: 39px;
+}
+.logo>span:nth-child(2){
+    color: rgb(251, 251, 251);
+    font-size: 30px;
+}
+.search{
+    
+    padding: 10px;
+    border-radius: 100px;
+}
+.search>input{
+    background: transparent;
+    font-size: 17px;
+    color: #fff;
+    font-style: italic;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.search>i{
+    color: #fff;
+}
+
+.roll>a{
+    font-size: 25px;
+    color: #fff;
+}
+.main{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    background:dodgerblue;
+    padding:10px;
+    text-align: start;
+    border-radius: 10px;
+}
+.card>video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card>h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
